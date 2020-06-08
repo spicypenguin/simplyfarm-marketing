@@ -1,0 +1,22 @@
+body {
+	background-color: #4D6E7F;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	width: 400px
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 98vh;
+}
