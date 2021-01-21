@@ -4,20 +4,47 @@
 <head>
 	<meta charset="utf-8">
 	<title>Simply Farm | Coming Soon</title>
-	<link href="tools/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<div class="center">
-		<!--wrapper started-->
-		<div class="logo">
-			<img src="images/logo-color.svg" class="logo" />
-		</div>
-		<div class="email">
-			<a href="mailto:hello@simply.farm">hello@simply.farm</a>
-		</div>
+	<div class="flex vertical container">
+		<header class="flex horizontal justify centerAlign">
+			<img src="images/logo-color.svg" class="headerImg" />
+			<a href="https://app.simply.farm">
+				<div class="primaryBtn">Sign In</div>
+			</a>
+		</header>
+		<hero class="flex hero">
+			<p class="textHero">Our mission is to digitize the strawberry industry.</p>
+		</hero>
+		<section class="flex vertical">
+			<p class="textMain">Less guesswork. More efficient farming.</p>
+			<p class="textMainSupport">Many strawberry farms across Australia (and around the world) rely on paper-based systems to capture information about the operation of their business. These processes are error prone, human-capital intensive, and inefficient.</p>
+			<p class="textMainSupport">Simply Farm lets you get back to what you love - working your farm - by taking the effort out of your regular paperwork and farm management activities.</p>
+		</section>
+		<section class="flex horizontal centerAlign">
+			<section class="flex vertical">
+				<p class="textFeature">Important product feature 1</p>
+				<p class="textFeatureSupport">Supporting text about this feature goes here.</p>
+			</section>
+			<img src="images/logo-color.svg" class="productImg left" />
+			<!--put product feature block 1 here-->
+		</section>
+		<section class="flex horizontal centerAlign">
+			<img src="images/logo-color.svg" class="productImg right" />
+			<section class="flex vertical">
+				<p class="textFeature">Important product feature 2</p>
+				<p class="textFeatureSupport">Supporting text about this feature goes here.</p>
+			</section>
+			<!-- put product feature block 2 here-->
+		</section>
+		<footer>
+			<!-- put footer content here -->
+			<p>©2021 Simply Farm</p>
+		</footer>
 	</div>
 </body>
 

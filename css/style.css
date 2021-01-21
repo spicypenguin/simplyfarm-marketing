@@ -1,0 +1,129 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #4D6E7F;
+	color: white;
+}
+
+.flex {
+	display: flex;
+}
+
+.vertical {
+	flex-direction: column;
+}
+
+.horizontal {
+	flex-direction: row;
+}
+
+.justify {
+	justify-content: space-between;
+}
+
+.centerAlign {
+	align-items: center;
+}
+
+.primaryBtn,
+.primaryBtn:hover,
+.primaryBtn:active,
+.primaryBtn:active:focus,
+.primaryBtn:visited,
+.primaryBtn:focus {
+	border-radius: 8px;
+	background-color: rgb(250, 207, 57);
+	color: black;
+	outline: none;
+	box-shadow: none;
+	padding: 16px 24px;
+}
+
+.headerImg {
+	width: 150px;
+}
+
+.container>* {
+	padding: 20px 20%;
+}
+
+.hero {
+	background-image: url("/images/hero-unsplash.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+}
+
+.textHero {
+	color: black;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.textMain {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.productImg {
+	width: 300px;
+}
+
+.left {
+	margin-left: 40px;
+}
+
+.right {
+	margin-right: 40px;
+}
+
+.textFeature {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 1000px) {
+	.container>* {
+		padding: 20px 10%;
+	}
+
+	.hero {
+		height: 400px;
+		padding: 0px 10% !important;
+	}
+
+	.headerImg {
+		width: 100px
+	}
+
+	.productImg {
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.container>* {
+		padding: 20px 5%;
+	}
+
+	.hero {
+		height: 225px;
+		padding: 0px 5% !important;
+	}
+
+	.headerImg {
+		width: 100px
+	}
+
+	.productImg {
+		display: none;
+	}
+}
